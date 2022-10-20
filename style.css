@@ -1,0 +1,377 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.headerMain{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    background-color: rgb(56, 10, 207);
+}
+
+.header-nav > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;   
+}
+
+.headerTitulo{
+    font-size: 1.5rem;
+    color: rgb(195, 186, 171);
+}
+
+.nav-links{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(195, 186, 171);
+    font-weight: 500;
+}
+
+.nav-links:hover{
+    color: rgb(192, 24, 39);
+}
+
+#homeSection1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 1rem 8%;
+    background-color: #f1f1f1;
+}
+
+.figure-img{
+    display: flex;
+    justify-content: right;
+}
+
+.img-home{
+    max-width: 70%;
+    border-radius: 50%;
+}
+
+.text-home{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.presentacionH1{
+    font-size: 2.5rem;
+    
+}
+
+.presentacionParrafo{
+    font-size: 1.2rem;
+    
+}
+
+.links{
+    display: flex;
+    gap: 2rem;
+}
+
+.presentacion-nav-links{
+    font-size: 1.5rem;
+    display: block;
+    text-decoration: none;
+    color: rgb(89, 89, 89);
+}
+
+.presentacion-nav-links:hover{
+    color: rgb(162, 32, 32);
+    
+}
+
+.seccionSobreMi{
+    background-color: rgb(56, 10, 207);
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 10%;
+    gap: 1rem;
+}
+
+.seccionSobreMi > h2{
+    font-size: 3.5rem;
+    color: rgb(195, 186, 171);
+}
+
+.text-about{
+    line-height: 1.5;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(195, 186, 171);
+}
+
+.skillsTitulo{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.seccionSkills{
+    min-height: 70vh;
+    padding: 1rem 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #f1f1f1;
+}
+
+.skills-grid{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    min-height: fit-content;
+    gap: 1rem;
+    align-items: center;
+}
+
+.skillcard{
+    padding: 2rem;
+    min-height: 20rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 3rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    color: rgb(195, 186, 171);
+}
+
+.icon{
+    display: block;
+    color: rgb(56, 10, 207);
+}
+
+.seccionformacionAcademica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50vh;
+    align-items: center;
+    background-color: rgb(56, 10, 207);
+    padding: 2rem;
+    gap: 2rem
+    ;
+}
+
+.formacionCard{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    align-items: center;
+}
+
+.card-formacion{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    color: rgb(195, 186, 171);
+}
+
+.formacionTitulo{
+    font-size: 2.4rem;
+    color: rgb(195, 186, 171);
+}
+
+.formacionProfesional{
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem 5%;
+    min-height: 100vh;
+}
+
+.grid-formacion{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.formacion-card{
+    background-color: rgb(56, 10, 207);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+}
+
+.img-formacion{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.content-formacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.formacion-card-titulo{
+    font-size: 1.8rem;
+    color: rgb(195, 186, 171);
+}
+
+.formacionpro-card-titulo{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(195, 186, 171);
+}
+
+.button-div{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(9, 98, 222);
+    cursor: pointer;
+    background-color: #fff;
+    text-decoration: none;
+    
+}
+
+.btn > a{
+    text-decoration: none;
+    color: rgb(56, 10, 207);
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn-formacion-azul{
+    background-color: rgb(9, 98, 222);
+}
+
+.btn-formacion-azul > a {
+    color: #fff;
+}
+
+.seccionFormulario{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 2rem;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.img-formulario{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formularioCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-bottom: 1px solid var(--colorPurpura);;
+}
+
+.form-div > input{
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border: 3px solid #380acf;
+    border-radius: 2%;
+}
+
+.info-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.form-div > textarea{
+    all: unset;
+    padding: 1rem;
+    width: 94%;
+    background-color: #fff;
+    border: 3px solid #380acf;
+    border-radius: 2%;
+}
+
+.btn-enviar{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.submit-btn{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    cursor: pointer;
+    border: 3px solid #380acf;
+    border-radius: 2%;
+
+}
+
+.footer{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1rem;
+    font-weight: 600;
+    color: rgb(195, 186, 171);
+    background-color: rgb(56, 10, 207);
+}
+
+@media only screen and (max-width: 850px){
+    .img-formulario{
+        display: none;
+    }
+    .seccionFormulario,
+    .formacion-card{
+        grid-template-columns: 1fr;
+    }
+
+    #homeSection1{
+        grid-template-columns: 1fr;
+
+    }
+    
+    .figure-img{
+        grid-row-start: 1;
+        justify-content: center;
+    }
+
+    .header-nav{
+        display: none;
+    }    
+}
